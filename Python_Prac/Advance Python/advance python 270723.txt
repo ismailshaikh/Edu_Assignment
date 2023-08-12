@@ -1,0 +1,91 @@
+https://medium.com/
+https://stackoverflow.com/
+https://github.com/
+
+NumPy Introduction
+What is NumPy?
+NumPy is a Python library used for working with arrays.
+
+It also has functions for working in domain of linear algebra, 
+fourier transform, and matrices.
+
+NumPy was created in 2005 by Travis Oliphant. It is an open source project and you can use it freely.
+
+NumPy stands for Numerical Python.
+
+Why Use NumPy?
+In Python we have lists that serve the purpose of arrays, but they are slow to process.
+
+NumPy aims to provide an array object that is up to 50x faster than traditional Python lists.
+
+The array object in NumPy is called ndarray, it provides a lot of supporting functions that make working with ndarray very easy.
+
+Arrays are very frequently used in data science, where speed and resources are very important.
+
+Data Science: is a branch of computer science where we study how to store, use and analyze data for deriving information from it.
+
+Why is NumPy Faster Than Lists?
+NumPy arrays are stored at one continuous place in memory unlike lists, so processes can access and manipulate them very efficiently.
+
+This behavior is called locality of reference in computer science.
+
+This is the main reason why NumPy is faster than lists. Also it is optimized to work with latest CPU architectures.
+
+Which Language is NumPy written in?
+NumPy is a Python library and is written partially in Python, but most of the parts that require fast computation are written in C or C++.
+
+
+-----------------------------------------------
+SciPy Introduction
+What is SciPy?
+SciPy is a scientific computation library that uses NumPy underneath.
+
+SciPy stands for Scientific Python.
+
+It provides more utility functions for optimization, stats and signal processing.
+
+Like NumPy, SciPy is open source so we can use it freely.
+
+SciPy was created by NumPy's creator Travis Olliphant.
+
+Why Use SciPy?
+If SciPy uses NumPy underneath, why can we not just use NumPy?
+
+SciPy has optimized and added functions that are frequently used in NumPy and Data Science.
+
+Which Language is SciPy Written in?
+SciPy is predominantly written in Python, but a few segments are written in C.
+
+
+---------------------------------------------
+Python MayaVi Module
+We all may have heard about Graphical User Interface, known as GUI, and we must have seen its impact in the changing interface of many applications. Basically, GUI or Graphical User Interface is a type of User Interface for applications and software which, instead of text-based user interfaces & typed command labels, allow the users to interact with the computers, smartphones, PCs, etc., through audio indicators and graphical icons such as notations, etc. GUI displays objects and data in such a manner that the information we are trying to display is conveyed very easily through the interactive User Interface provided. Whenever the user interacts with the applications, the object displayed on the electronic devices changes its color, text, and sometimes shape too. Thus, it makes the user's interaction with the electronic devices or applications become more interactive and interesting for the users.
+
+-------------------------
+
+What is Matplotlib?
+Matplotlib is a low level graph plotting library in python that 
+serves as a visualization utility.
+
+Matplotlib was created by John D. Hunter.
+
+Matplotlib is open source and we can use it freely.
+
+Matplotlib is mostly written in python, a few segments are written in C, 
+Objective-C and Javascript for Platform compatibility.
+
+-------------------------------
+
+Sklearn
+Simple and efficient tools for predictive data analysis
+Accessible to everybody, and reusable in various contexts
+Built on NumPy, SciPy, and matplotlib
+Open source, commercially usable
+most useful and robust library for machine learning in Python
+It provides a selection of efficient tools for machine learning and 
+statistical modeling including 
+classification, regression, clustering and dimensionality reduction
+This library, which is largely written in Python, is built upon NumPy, 
+SciPy and Matplotlib.
+
+-----------------------------------------------------------

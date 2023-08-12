@@ -1,0 +1,281 @@
+Edu  04072023
+
+Capstone Project  Assign 
+Group 3: { Nishant, Sumit, Muhsina, Ismail }
+
+www.data.gov.
+https://archive.ics.uci.edu/
+www.kaggle.com.
+www.openml.org.
+
+---------------------------------------------------------------------------------------------------------
+04072023 : Python / Programming Language
+
+What is Interpretor & Compiled ?
+What are the difference in Interpretor & Compiled ?
+Which one is Faster and Why?
+Example of Interpretor & Compiled ?
+Difference Between Scripting Languages and programming Languages.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Which one is Faster and Why?
+compiled languages, the CPU runs the code directly. 
+In interpreted languages, the CPU usually runs the interpreter or virtual machine. 
+This makes interpreted languages generally slower than compiled languages, due to the overhead of running the VM or interpreter.
+
+A compiled language like C is usually compiled directly into machine code. 
+When you run the code, it is executed directly by the CPU.
+
+A fully interpreted language like BASIC or PHP is usually interpreted each time it runs. 
+When you execute your code, the CPU executes the interpreter, and the interpreter reads and executes your source code. 
+(PHP can be classified as fully interpreted, since while it does use opcodes, they are usually thrown away after the execution.)
+
+
+A bytecode interpreted language like Python, is compiled from source code to bytecode that is executed by a virtual machine. 
+The CPU runs the VM, and the VM executes each bytecode instruction. In Python, the bytecode is compiled the first time code is executed.
+
+In Java, bytecode is compiled ahead of execution. The Java VM also has a special feature called Just-in-time compilation. 
+This means that during execution, it may compile some of the bytecode to machine code, which it can send to the CPU to execute directly.
+
+-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is a Compiler?
+A compiler is a translator that produces an output of low-level language (like an assembly or machine language) by taking an input of high-level language. It is basically a computer program used to transform codes written in a programming language into machine code (human-readable code to a binary 0 and 1 bits language for a computer processor to understand). The computer then processes the machine code for performing the corresponding tasks.
+
+Compilers check all types of errors, limits, and ranges. Thus, it’s more intelligent.
+The run time of its program is longer, and it occupies more memory.
+
+What Is an Interpreter?
+It is a program that functions for the translation of a programming language into a comprehensible one. It is a computer program used for converting high-level program statements into machine codes. It includes pre-compiled code, source code, and scripts.
+
+An interpreter translates only one statement at a time of the program.
+They create an exe of the programming language before the program runs.
+
+-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What are the difference in both of this ?
+-------------------------------------------------------------------------------------------------------
+Steps of Programming :
+Creation of the program.
+The Compiler analyses all the language statements and throws an error when it finds something incorrect.
+If there’s zero error, the compiler converts the source code to machine one.
+It links various code files into a runnable program (exe).
+It runs the program.
+- -- - - - - - - - - - - 
+Creation of the program.
+It doesn’t require the linking of files or generation of machine code.
+It executes the source statements line by line during the execution.
+---------------------------------------------------------------------
+
+Advantage:
+The code execution time is comparatively less because the program code already gets translated into machine code.	
+They are fairly easy to use and execute, even for a beginner.
+
+Disadvantage:	
+One can’t change a program without getting back to the source code.	
+Only computers with the corresponding Interpreter can run the interpreted programs.
+
+Machine Code	: 
+It stores the machine language on the disk in the form of machine code.	
+It doesn’t save the machine language at all.
+
+Running Time	:
+The compiled codes run comparatively faster.	
+The interpreted codes run comparatively slower.
+
+Model	:
+It works on the basis of the language-translation linking-loading model.	
+It works on the basis of the Interpretation method.
+
+Generation of Program:
+	It generates an output program in the exe format. A user can run it independently from the originally intended program.	
+	It doesn’t generate an output program. Meaning, it evaluates the source program every time during individual execution.
+	
+	
+Execution: 
+	One can separate the program execution from the compilation. Thus, you can perform it only after completing the compilation of the entire output.	
+	Execution of the program is one of the steps of the Interpretation process. So, you can perform it line by line.
+	
+	
+Memory Requirement:
+	Target programs execute independently. They don’t require the Compiler in the memory.	
+	Interpreter originally exists in the memory at the time of interpretation.
+	
+	
+Best Fitted For :
+		You cannot port the Compiler because it stays bound to the specific target machine. The compilation model is very common in programming languages like C and C++.	
+		They work the best in web environments- where the load time is very crucial. Compiling takes a relatively long time, even with small codes that may not run multiple times due to the exhaustive analysis. Interpretations are better in such cases.
+Optimization of Code	:
+	A compiler is capable of seeing the entire code upfront. Thus, it makes the codes run faster by performing plenty of optimizations.	
+	An interpreter sees a code line by line. The optimization is, thus, not very robust when compared to Compilers.
+Dynamic Typing	:
+	Compilers are very difficult to implement because they can’t predict anything that happens during the turn time.	
+	The Interpreted language supports Dynamic Typing.
+Use	:	
+	It works best for the Production Environment.	
+	It works the best for the programming and development environment.
+Execution of Error	:
+	A Compiler displays every error and warning while compiling. So, you can’t run this program unless you fix the errors.	
+	An Interpreter reads every statement, then displays the errors, if any. A user must resolve these errors in order to interpret the next line.
+Input	:
+	A Compiler takes a program as a whole.	
+	An Interpreter takes single lines of a code.
+Output:
+	The Compilers generate intermediate machine codes.	
+	The Interpreters never generate any intermediate machine codes.
+Errors	:
+	This translator displays all the errors after compiling- together at the same time.	
+	It displays the errors of every single line one by one.
+Programming Languages:
+	Java, Scala, C#, C, C++ use Compilers.	
+	Perl, Ruby, PHP use Interpreters.
+	
+	
+-------------------------------------------------------------------------------------------------
+Difference Between Scripting Languages and programming Languages.
+
+Language Type	:
+	The scripting languages are interpreter-based languages.	
+	The programming languages are compiler-based languages.
+	
+Use	:
+	The scripting languages help in combining the existing components of an application.	
+	The programming languages help in developing anything from scratch.
+	
+Running of Language	: 
+	A user needs to run scripting languages inside an existing program. Thus, it’s program-dependent.	
+	Programming languages are program-independent.
+	
+Conversion	:
+	Scripting languages convert high-level instructions into machine language.
+	Programming languages help in converting the full program into the machine language (at once).
+	
+Compilation :
+	You don’t need to compile these languages.	
+	These languages first need a compilation.
+	
+Design	:
+	These make the coding process simple and fast.	
+	These provide full usage of the languages.
+	
+File Type:
+	Scripting languages don’t create any file types.	
+	Programming languages create .exe files.
+	
+Complexity:	
+	These are very easy to use and easy to write.	
+	These are pretty complex in terms of writing and usage.
+
+Type of Coding:
+	Scripting languages help write a small piece of an entire code.	
+	Programming languages help write the full code concerning a program.
+
+Developing Time:
+	These take less time because they involve lesser code.	
+	These take more time because a programmer must write the entire code.
+	
+Interpretation:
+	We usually interpret a scripting language in another program.	
+	The compile results of a programming language are stand-alone. No other program needs to interpret it.
+
+Requirement of Host:
+	Scripting languages require hosts for execution.	
+	Programming languages are self-executable. They don’t require any host.
+
+Length of Codes:
+	These involve very few and short coding lines.	
+	These require numerous lines of coding for a single function.
+
+Support:
+	These provide limited support to data types, user interface design, and graphic design.	
+	These provide rich support for graphic design, data types, and user interface design.
+
+Maintenance:
+	These involve very low maintenance.	
+	These involve high maintenance.
+
+Cost:
+	It is easier and cheaper to maintain a scripting language.	
+	Maintaining a programming language is comparatively more expensive.
+
+Example	
+	VB Script, Perl, Ruby, PHP, JavaScript, etc.	
+	C, C++, COBOL, Basic, VB, C#, Pascal, Java, etc.
+	
+----------------------------------------------------------------------------------------------------------------------------
+06/07/2023
+Access specifiers or Access modifiers in Python Programming
+Access Modifiers: 
+Access specifiers or access modifiers 
+in python programming are used to limit the access of 
+class variables and class methods outside of class 
+while implementing the concepts of inheritance. 
+This can be achieved by: 
+Public, Private and Protected keyword.
+
+We can easily inherit the properties or behaviour of any class 
+using the concept of inheritance. 
+But some classes also holds the data (class variables and class methods) 
+that we don’t want other classes to inherit. 
+So, to prevent that data we used access specifiers in python.
+
+ self.age = age             # public Attribute
+        self._name = name          # protected Attribute 
+        self.__salary = salary     # private Attribute
+
+private:
+variable values that have the scope within a class, 
+i.e., these variables can be viewed and accessed within the class 
+in which they have been declared and the classes outside 
+that class cannot access them.
+
+What is protected variable in Python?
+Protected variables are those data members of a class that can be accessed 
+within the class and the classes derived from that class.
+
+--------------------------------------------------------------------------------
+Public Access Modifier:
+The members of a class that are declared public are easily accessible 
+from any part of the program.
+
+# accessing public data member
+print("Name: ", obj.geekName)
+
+---------------------------------
+Protected Access Modifier:
+The members of a class that are declared protected are only accessible 
+to a class derived from it. Data members of a class are declared protected
+ by adding a single underscore ‘_’ symbol before the data member of that class.
+
+ # accessing protected data members of super class
+                print("Name: ", self._name)
+				
+-------------------------------------------
+Private Access Modifier:
+The members of a class that are declared private are accessible within the 
+class only, private access modifier is the most secure access modifier. 
+Data members of a class are declared private by adding a 
+double underscore ‘__’ symbol before the data member of that class. 
+
+# accessing private member function
+           self.__displayDetails() 
+		   
+----------------------------------------------------------------------
+
+Resereve Keywords
+
+import keyword
+keyword.kwlist
+
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 
+'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 
+'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 
+'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+--------------------------------------------------------------------------
+
+
+select distinct city
+from station
+where city regexp '^[^aeiou].*[^aeiou]$'; 
+
+
